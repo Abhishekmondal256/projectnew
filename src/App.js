@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React from "react";
+import {Route,Routes} from "react-router-dom";
 import './App.css';
-
+import Dsa from "./components/Dsa";
+import Dbms from "./components/Dbms";
+import Operating from "./components/Operating";
+import Systemdesign from "./components/Systemdesign";
+import Computernetwork from "./components/Computernetwork";
+import Oops from "./components/Oops";
+import Webdevelopment from "./components/Webdevelopment";
+import Machinelearning from "./components/Machinelearning";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Routes>
+    <Route path="/DSA" element={<Dsa/>}/>   
+    <Route path="/DBMS" element={<Dbms/>}/> 
+    <Route path="/OPERATING" element={<Operating/>}/>
+    <Route path="/SYSTEMDESIGN" element={<Systemdesign/>}/>
+    <Route path="/COMPUTERNETWORK" element={<Computernetwork/>}/>
+    <Route path="/OOPS" element={<Oops/>}/>
+    <Route path="/WEBDEVELOPMENT" element={<Webdevelopment/>}/>
+    <Route path="/MACHINELEARNING" element={<Machinelearning/>}/>
+     </Routes>
+        
   );
 }
 

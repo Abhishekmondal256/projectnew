@@ -13,7 +13,7 @@ return(
 <Menu/>
 <div className="maincontainer">
 {data.map((item)=>(
-<div key={item.id} className="box">
+<div key={item.id} className="boxy">
 
 
 

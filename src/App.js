@@ -9,9 +9,12 @@ import Computernetwork from "./components/Computernetwork";
 import Oops from "./components/Oops";
 import Webdevelopment from "./components/Webdevelopment";
 import Machinelearning from "./components/Machinelearning";
+import Appdevelopment from "./components/Appdevelopment";
+import Home from "./components/Home";
 function App() {
   return (
      <Routes>
+      <Route path="/" element={<Home/>}/> 
     <Route path="/DSA" element={<Dsa/>}/>   
     <Route path="/DBMS" element={<Dbms/>}/> 
     <Route path="/OPERATING" element={<Operating/>}/>
@@ -20,6 +23,7 @@ function App() {
     <Route path="/OOPS" element={<Oops/>}/>
     <Route path="/WEBDEVELOPMENT" element={<Webdevelopment/>}/>
     <Route path="/MACHINELEARNING" element={<Machinelearning/>}/>
+    <Route path="/APPDEVELOPMENT" element={<Appdevelopment/>}/>
      </Routes>
         
   );

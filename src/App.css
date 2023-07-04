@@ -69,7 +69,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 }
-.box{
+.boxy{
   display: grid;
   grid-template-columns: 2fr 3fr 1fr;
   border:1px solid;
@@ -79,7 +79,7 @@ flex-direction: column;
   width:62rem;
   margin:0.3rem;
 }
-.box:hover{
+.boxy:hover{
   background: rgb(255,255,255); 
   box-shadow: 0 2px 4px rgba(140,140,141,0.549);
   transition:.3s ease;
@@ -206,5 +206,81 @@ height:2.2rem;
     border-radius: 4px;
   }
   .course:hover{
+    cursor: pointer;
+  }
+  .Subtop{
+    display: flex;
+  }
+  .Subtop img{
+    height: 15rem;
+    width: 14.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box{
+    margin-top: 3.5rem;
+    margin-left: 6rem;
+    height: 23rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;border: 2px  solid red;border-radius: 26px;
+  }
+  .Subbottom{
+    display: flex;
+    margin-top: 0px;
+  }
+  .Subbottom img{
+    height: 15rem;
+    width: 14.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Subbottom .box2{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    height: 23rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    border: 2px  solid red;
+    border-radius: 26px;
+  }
+  .Subbottom2{
+    display: flex;
+    margin-top: 0px;
+  }
+  .Subbottom2 img{
+    height: 15rem;
+    width: 14.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Subbottom2 .box2{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    height: 23rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    border: 2px  solid red;
+    border-radius: 26px;
+    background-color: rgb(167, 238, 80);
+  }
+  
+  
+  .courses{
+    background:linear-gradient(rgb(37, 213, 222),rgb(217, 237, 67));
+  }
+  button{
+    height: 2.4rem;
+    width: 9rem;
+    background-color: rgb(198, 108, 221);
+    box-shadow: 4px 4px;
     cursor: pointer;
   }

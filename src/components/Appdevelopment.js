@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Menu from "./Menu";
-const Dsa=()=>{
-    const data=[ { id: 1, name: 'DSA', channelname:'Code With Harry',videos:'92',duration:"12 hr 23 mins",img:'image1.jpg',link: "https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"},
-    {  id: 2, name: 'Java + DSA', channelname:'Kunal Kushwaha',videos:'49',duration:"9 hr 23 mins",img:'image2.jpg',link:"https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ"},
-    {  id: 3, name: 'C++ + DSA', channelname:'Codehelp',videos:'149',duration:"16 hr 23 mins",img:'image3.jpg',link:"https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"},];
+const Appdevelopment=()=>{
+    const data=[ { id: 1, name: 'Android 📱App Development Course', channelname:'WsCube Tech',videos:'139',duration:"12 hr 23 mins",img:'image1.jpg',link: "https://www.youtube.com/playlist?list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL"},
+    {  id: 2, name: 'Android Development Tutorials in Hindi', channelname:'Code with Harry',videos:'34',duration:"9 hr 23 mins",img:'image2.jpg',link:"https://www.youtube.com/playlist?list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd"},
+    {  id: 3, name: 'The Complete Android App Developer Course', channelname:'Master Coding',videos:'149',duration:"16 hr 23 mins",img:'image3.webp',link:"https://www.youtube.com/playlist?list=PL6Q9UqV2Sf1gHCHOKYLDofElSvxtRRXOR"},];
 
  
 
@@ -51,4 +51,4 @@ return(
 
 
 }
-export default Dsa;
+export default Appdevelopment;

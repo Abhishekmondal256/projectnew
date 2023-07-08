@@ -17,7 +17,7 @@ function App() {
       <Route path="/" element={<Home/>}/> 
     <Route path="/DSA" element={<Dsa/>}/>   
     <Route path="/DBMS" element={<Dbms/>}/> 
-    <Route path="/OPERATING" element={<Operating/>}/>
+    <Route path="/OPERATINGSYSTEM" element={<Operating/>}/>
     <Route path="/SYSTEMDESIGN" element={<Systemdesign/>}/>
     <Route path="/COMPUTERNETWORK" element={<Computernetwork/>}/>
     <Route path="/OOPS" element={<Oops/>}/>

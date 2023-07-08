@@ -2,9 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Menu from "./Menu";
 const Systemdesign=()=>{
-    const data=[ { id: 1, name: 'System Design Primer Course', channelname:'sudoCODE',videos:'29',duration:"12 hr 23 mins",img:'image1.jpg',link: "https://www.youtube.com/playlist?list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a"},
-    {  id: 2, name: 'System Design', channelname:'Gaurav Sen',videos:'38',duration:"9 hr 23 mins",img:'image2.jpg',link:"https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX"},
-    {  id: 3, name: 'System Design', channelname:'SCALER',videos:'149',duration:"16 hr 23 mins",img:'image3.jpg',link:"https://www.youtube.com/playlist?list=PLLhBy6YSIT0ANaihpjwDBSBju0qUZ82SK"},];
+    const data=[ { id: 1, name: 'System Design Primer Course', channelname:'sudoCODE',videos:'29',duration:"12 hr 23 mins",img:'https://i.ytimg.com/vi/FSR1s2b-l_I/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBcJcuaOrhw5PJkQG_hyOdOI2j67w',link: "https://www.youtube.com/playlist?list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a"},
+    {  id: 2, name: 'System Design', channelname:'Gaurav Sen',videos:'38',duration:"9 hr 23 mins",img:'https://i.ytimg.com/vi/SqcXvc3ZmRU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhrUBAWchj9fO55l6pppWlfgG0Ow',link:"https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX"},
+    {  id: 3, name: 'System Design', channelname:'SCALER',videos:'149',duration:"16 hr 23 mins",img:'https://i.ytimg.com/vi/8UryASGBiR4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDW4ZQPOUPKuuWiVsP8bqUfTtT83g',link:"https://www.youtube.com/playlist?list=PLLhBy6YSIT0ANaihpjwDBSBju0qUZ82SK"},];
 
  
 
